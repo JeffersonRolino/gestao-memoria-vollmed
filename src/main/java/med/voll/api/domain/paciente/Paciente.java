@@ -53,7 +53,6 @@ public class Paciente {
         if (dados.endereco() != null) {
             this.endereco.atualizarInformacoes(dados.endereco());
         }
-
     }
 
     public void excluir() {
@@ -61,6 +60,6 @@ public class Paciente {
     }
 
     public List<Consulta> consultas(){
-        return consultas();
+        return consultas;
     }
 }
